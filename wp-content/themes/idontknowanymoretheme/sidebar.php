@@ -18,7 +18,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		$current_user = wp_get_current_user();
 		if ( is_user_logged_in() ) {
 			echo '<div class="login-logout">';
-			echo '<h1>Welcome, ' . $current_user->user_login . '</h1>';
+			echo '<h2>Welcome, ' . $current_user->user_login . '</h2>';
 			echo '</div>';
 		} else {
 			echo '<div class="login-logout">';
@@ -29,7 +29,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		$current_user = wp_get_current_user();
 		if ( is_user_logged_in() ) {
 			echo '<div class="login-logout">';
-			echo '<h1>Signed in, ' . $current_user->user_login . '</h1>';
+			echo '<h2>Signed in, ' . $current_user->user_login . '</h2>';
 			echo '</div>';
 		} else {
 			echo '<div class="login-logout">';
