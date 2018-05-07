@@ -7,11 +7,11 @@
 ( function() {
 	var container, button, menu, menuContainer, element, links, i, len;
 
-	var targetAnchorLog = document.getElementById( 'menu-item-37' ).getElementsByTagName( 'a' )[0];
-	targetAnchorLog.className = 'log-button';
+	// var targetAnchorLog = document.getElementById( 'menu-item-37' ).getElementsByTagName( 'a' )[0];
+	// targetAnchorLog.className = 'log-button';
 
-	var targetAnchorRegister = document.getElementById( 'menu-item-38' ).getElementsByTagName( 'a' )[0];
-	targetAnchorRegister.className = 'register-button';
+	// var targetAnchorRegister = document.getElementById( 'menu-item-38' ).getElementsByTagName( 'a' )[0];
+	// targetAnchorRegister.className = 'register-button';
 
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container ) {
@@ -19,7 +19,8 @@
 	}
 
 	element = document.createElement("button");
-	element.appendChild(document.createTextNode("Test"));
+	element.className = 'close-button';
+	// element.appendChild(document.createTextNode("Close"));
 
 	button = container.getElementsByTagName( 'button' )[0];
 	if ( 'undefined' === typeof button ) {

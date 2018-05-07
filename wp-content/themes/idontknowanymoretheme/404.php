@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-
+	<div class="wrapper">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -55,6 +55,7 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	</div>
 
 <?php
 get_footer();
